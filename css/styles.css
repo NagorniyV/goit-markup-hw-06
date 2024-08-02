@@ -56,7 +56,7 @@ a{
         letter-spacing: 0.02em;    
 }
 
-address{
+.address{
     font-style: normal;
 }
 
@@ -77,6 +77,10 @@ address{
 
 .span-logo{
     color: #f4f4fd;
+}
+
+.span-header{
+    color: #2e2f42;
 }
 
 .main-page{
