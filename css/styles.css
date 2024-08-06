@@ -63,7 +63,8 @@ width: 1158px;
     width: 1440px;
     height: 600px;
     margin: auto;
-    padding: 120px 0px 120px 0px;
+padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .btn-os{
@@ -166,7 +167,6 @@ a{
 }
 
 .ban{
-    color: rgb(184, 59, 59);
     visibility: hidden;
 }
 
@@ -175,12 +175,15 @@ a{
     gap: 24px;
 }
 
+.first-content{
+margin-top: 120px;
+    margin-bottom: 120px;
+}
+
 .first-content .container{
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 120px;
-    margin-bottom: 120px;
 }
 
 .cfc{
@@ -208,23 +211,63 @@ padding-left: 0px;
     border-radius: 0px 0px 4px 4px;
 }
 
-.content-title {
+.tabl .content-title {
     font-weight: 500;
     font-size: 20px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color:#2e2f42;
     font-family: "Roboto", sans-serif;
-    padding-bottom: 8px;
+    margin-bottom: 8px;  
 }
 
-.content-text{
+.tabl .content-text{
     font-family: "Roboto", sans-serif;
         font-weight: 400;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
         color: #434455;
+}
+
+.list .content-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.list .content-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+    text-align: center;
+}
+
+.cfc .content-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;
+   }
+
+.cfc .content-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .team{
@@ -251,8 +294,7 @@ padding-bottom: 32px;
 }
 
 .portfolio{
-margin-top: 120px;
-    margin-bottom: 120px;
+padding: 120px 0 120px 0;
 }
 
 .tabl{
