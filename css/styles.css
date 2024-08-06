@@ -10,6 +10,10 @@ font-weight: 500;
     margin-right: auto;
 }
 
+img{
+    display: block;
+}
+
 h1,
 h2,
 h3,
@@ -24,28 +28,23 @@ a{
     justify-content: space-between;
     align-items: center;
     width: 1158px;
-        height: 72px;
-        margin: auto;
-        display: flex;
-}
-.list {
-    display: flex;
-    gap: 40px;
+    height: 72px;
+    margin: auto;
+    border-bottom: 1px solid #e7e9fc;
+    padding: 0 15px 0 15px;
 }
 
 .navigation{
     display: flex;
-    gap: 30px;
+    gap: 40px;
 }
 
 .nav{
     display: flex;
     align-items: center;
-    gap: 76px;
 }
 
 .main-page .container{
-    display: flex;
 margin: auto;
 width: 1158px;
 }
@@ -62,6 +61,8 @@ font-weight: 500;
     padding: 16px 32px 16px 32px;
     display: block;
     margin: auto;
+    border-radius: 4px;
+    border: 0px;
 }
 
 .btn-os:hover,
@@ -75,7 +76,7 @@ font-weight: 500;
         font-size: 16px;
         line-height: 150%;
         letter-spacing: 0.02em;
-        padding: 5px 5px 5px 5px;
+        padding: 24px 0px 24px 0px;
 }
 
 .navigation .link:hover,
@@ -114,12 +115,13 @@ a{
 
 .logo{
     font-weight: 700;
-        font-size: 18px;
-        line-height: 117%;
-        letter-spacing: 0.03em;
-        color: #4d5ae5;
-        font-family:"Raleway", sans-serif;
-        text-transform: uppercase;
+    font-size: 18px;
+    line-height: 117%;
+    letter-spacing: 0.03em;
+    color: #4d5ae5;
+    font-family:"Raleway", sans-serif;
+    text-transform: uppercase;
+    margin-right: 76px;
 }
 
 .span-logo{
@@ -136,6 +138,8 @@ a{
     height: 600px;
     margin-left: auto;
     margin-right: auto;
+    padding-top: 188px;
+    padding-bottom: 188px;
 }
 
 .main-title {
