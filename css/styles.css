@@ -262,6 +262,10 @@ padding-left: 0px;
     text-align: center;
 }
 
+.content-title{
+margin-bottom: 8px;
+}
+
 .cfc .content-title {
     font-weight: 500;
     font-size: 20px;
@@ -279,6 +283,10 @@ padding-left: 0px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+}
+
+.cfc{
+    width: calc((100% - 72px) / 4);
 }
 
 .team{
@@ -306,7 +314,12 @@ padding-bottom: 32px;
 
 .portfolio{
 padding: 120px 0 120px 0;
+max-width: 1158px;
+margin-left: auto;
+margin-right: auto;
 }
+
+
 
 .tabl{
     display: flex;
@@ -315,6 +328,10 @@ padding: 120px 0 120px 0;
     row-gap: 48px;
     margin-left: auto;
     margin-right: auto;
+}
+
+.tabl .tabl-list{
+    width: calc((100% - 48px) / 3);
 }
 
 .tabl-list .container {
