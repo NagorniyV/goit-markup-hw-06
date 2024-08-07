@@ -12,6 +12,8 @@ font-weight: 500;
 
 img{
     display: block;
+    padding-right: 0px;
+    margin-right: 0px;
 }
 
 h1,
@@ -27,16 +29,15 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 1158px;
     margin: auto;
     padding: 0 15px 0 15px;
+    width: 1158px;
 }
 
 .header{
     display: flex;
-    margin: 0px auto;
+   margin: 0px auto;
     border-bottom: 1px solid #e7e9fc;
-    width: 1158px;
 }
 
 .navigation{
@@ -54,14 +55,13 @@ a{
 }
 
 .main-page .container{
-margin: auto;
+margin: 0px auto;
 width: 1158px;
 }
 
 .main-page {
     background-color: #2e2f42;
     width: 1440px;
-    height: 600px;
     margin: auto;
 padding-top: 188px;
     padding-bottom: 188px;
@@ -159,7 +159,6 @@ a{
     text-align: center;
     color:white;
     margin-bottom: 48px;
-    margin-top: 188px;
     margin-left: auto;
     margin-right: auto;
     max-width: 496px;
@@ -189,17 +188,17 @@ a{
 }
 
 .first-content{
-margin-top: 120px;
-    margin-bottom: 120px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
 .first-content .container{
     width: 1128px;
     margin-left: auto;
     margin-right: auto;
-}
+  }
 
-.cfc{
+.content-first-content .cfc{
     width: calc((100% - 72px) / 4)
 }
 
@@ -219,7 +218,7 @@ margin-right: auto;
 padding-left: 0px;
 }
 
-.list{
+.team-content .list{
     width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
@@ -230,8 +229,7 @@ padding-left: 0px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color:#2e2f42;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 8px;  
+    font-family: "Roboto", sans-serif; 
 }
 
 .tabl .content-text{
@@ -315,7 +313,6 @@ padding: 120px 0 120px 0;
     flex-wrap: wrap;
     column-gap: 24px;
     row-gap: 48px;
-    max-width: 1128px;
     margin-left: auto;
     margin-right: auto;
 }
