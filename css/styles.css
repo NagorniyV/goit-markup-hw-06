@@ -190,12 +190,14 @@ a{
 
 .first-content .container{
     width: 1128px;
+    justify-content: center;
     margin-left: auto;
     margin-right: auto;
   }
 
 .content-first-content .cfc{
-    width: calc((100% - 72px) / 4);
+    display: block;
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team .container{
@@ -281,10 +283,6 @@ margin-bottom: 8px;
     color: #434455;
 }
 
-.cfc{
-    width: calc((100% - 72px) / 4);
-}
-
 .team{
     background-color: #f4f4fd;
     padding-top: 120px;
@@ -314,8 +312,6 @@ max-width: 1158px;
 margin-left: auto;
 margin-right: auto;
 }
-
-
 
 .tabl{
     display: flex;
