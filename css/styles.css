@@ -178,10 +178,6 @@ a{
     overflow: hidden;
 }
 
-.visibility-hidden {
-    visibility: hidden;
-}
-
 .content-first-content{
     display: flex;
     gap: 24px;
@@ -199,7 +195,7 @@ a{
   }
 
 .content-first-content .cfc{
-    width: calc((100% - 72px) / 4)
+    width: calc((100% - 72px) / 4);
 }
 
 .team .container{
@@ -330,7 +326,7 @@ margin-right: auto;
     margin-right: auto;
 }
 
-.tabl .tabl-list{
+.tabl-list{
     width: calc((100% - 48px) / 3);
 }
 
