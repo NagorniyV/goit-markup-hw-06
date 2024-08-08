@@ -293,6 +293,8 @@ margin-bottom: 8px;
 .list .container{
 padding-top: 32px;
 padding-bottom: 32px;
+padding-left: 15px;
+padding-right: 15px;
 }
 
 .our-title{
