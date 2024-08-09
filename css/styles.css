@@ -30,14 +30,15 @@ a{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 24px 15px 24px 15px;
+    padding: 0 15px 0 15px;
     width: 1158px;
 }
 
 .header{
     display: flex;
-   margin: 0px auto;
+    margin: 0px auto;
     border-bottom: 1px solid #e7e9fc;
+    height: 72px;
 }
 
 .navigation{
@@ -234,11 +235,11 @@ padding-left: 0px;
 
 .tabl .content-text{
     font-family: "Roboto", sans-serif;
-        font-weight: 400;
-        font-size: 16px;
-        line-height: 150%;
-        letter-spacing: 0.02em;
-        color: #434455;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
 }
 
 .list .content-title {
@@ -263,7 +264,7 @@ padding-left: 0px;
 }
 
 .content-title{
-margin-bottom: 8px;
+    margin-bottom: 8px;
 }
 
 .cfc .content-title {
@@ -292,31 +293,31 @@ margin-bottom: 8px;
 }
 
 .list .container{
-padding-top: 32px;
-padding-bottom: 32px;
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .our-title{
     font-family: "Roboto", sans-serif;
-        font-weight: 700;
-        font-size: 36px;
-        line-height: 111%;
-        letter-spacing: 0.02em;
-        text-align: center;
-        color: #2e2f42;
-        text-transform: capitalize;
-        margin-bottom: 72px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #2e2f42;
+    text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
 .portfolio{
-padding: 120px 0 120px 0;
-max-width: 1158px;
-margin-left: auto;
-margin-right: auto;
+   padding: 120px 0 120px 0;
+   max-width: 1158px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 .portfolio .container{
-padding: 0 15px;
+   padding: 0 15px;
 }
 
 .tabl{
