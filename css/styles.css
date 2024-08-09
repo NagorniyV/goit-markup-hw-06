@@ -30,7 +30,7 @@ a{
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    padding: 0 15px 0 15px;
+    padding: 24px 15px 24px 15px;
     width: 1158px;
 }
 
@@ -55,21 +55,20 @@ a{
 }
 
 .main-page .container{
-margin: 0px auto;
-width: 1158px;
+    margin: 0px auto;
+    padding: 0 15px;
 }
 
 .main-page {
     background-color: #2e2f42;
-    width: 1440px;
     margin: auto;
-padding-top: 188px;
+    padding-top: 188px;
     padding-bottom: 188px;
 }
 
 .btn-os{
-background-color: #4d5ae5;
-font-weight: 500;
+    background-color: #4d5ae5;
+    font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
@@ -207,6 +206,7 @@ max-width: 1158px;
 gap: 24px;
 margin-left: auto;
 margin-right: auto;
+padding: 0 15px;
 }
 
 .team-content{
@@ -315,6 +315,10 @@ margin-left: auto;
 margin-right: auto;
 }
 
+.portfolio .container{
+padding: 0 15px;
+}
+
 .tabl{
     display: flex;
     flex-wrap: wrap;
@@ -354,6 +358,7 @@ border-top: none;
 max-width: 1158px;
 margin-left: auto;
 margin-right: auto;
+padding: 0 15px;
 }
 
 .end-page .logo{
