@@ -29,7 +29,7 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
+    margin: 0 auto;
     padding: 0 15px 0 15px;
     width: 1158px;
 }
@@ -292,7 +292,9 @@ padding-left: 0px;
     padding-bottom: 120px;
 }
 
-.list .container{
+
+
+.team-content .container{
     padding-top: 32px;
     padding-bottom: 32px;
 }
