@@ -46,6 +46,10 @@ a{
     gap: 40px;
 }
 
+/* .navigation .link:first{
+    border-bottom: 4px solid #404bbf;
+} */
+
 .list-h{
     display: flex;
     gap: 40px;
@@ -65,7 +69,15 @@ a{
     margin: auto;
     padding-top: 188px;
     padding-bottom: 188px;
-}
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+            url(../images/hero-bg.jpg);
+    background-repeat: no-repeat;
+        background-position: center center;
+        background-size: cover;
+    max-width: 1440px;
+    }
 
 .btn-os{
     background-color: #4d5ae5;
@@ -157,7 +169,7 @@ a{
     font-weight: 700;
     font-size: 56px;
     line-height: 107%;
-    letter-spacing: 0.02em;
+   letter-spacing: 0.3px;
     text-align: center;
     color:white;
     margin-bottom: 48px;
@@ -180,10 +192,12 @@ a{
     overflow: hidden;
 }
 
-.content-first-content{
+.list-sec2{
     display: flex;
     gap: 24px;
 }
+
+/* section2 first .content */
 
 .first-content{
     padding-top: 120px;
@@ -197,10 +211,43 @@ a{
     margin-right: auto;
   }
 
-.content-first-content .cfc{
+.first-content .icon-box {
+   display: flex;
+  flex-direction: column;
+      align-items: center;
+  height: 112px;
+  justify-content: center;
+ background-color: #F4F4FD;
+   border: 1px solid #8E8F99;
+  border-radius: 4px;
+   margin-bottom: 8px;
+      }
+
+.list-sec2 .item-sec2{
     display: block;
     width: calc((100% - 3 * 24px) / 4);
 }
+
+.item-sec2 .content-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    font-family: "Roboto", sans-serif;
+    margin-bottom: 8px;
+}
+
+.item-sec2 .content-text {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+
+/* section3 Our Team */
 
 .team .container{
 max-width: 1158px;
@@ -267,32 +314,11 @@ padding-left: 0px;
     margin-bottom: 8px;
 }
 
-.cfc .content-title {
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 120%;
-    letter-spacing: 0.02em;
-    color: #2e2f42;
-    font-family: "Roboto", sans-serif;
-    margin-bottom: 8px;
-   }
-
-.cfc .content-text {
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 150%;
-    letter-spacing: 0.02em;
-    color: #434455;
-}
-
 .team{
     background-color: #f4f4fd;
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
-
 
 .team-box{
     padding-top: 32px;
