@@ -647,7 +647,7 @@ align-items: baseline;
     margin-bottom: 8px;
     display: flex;
     flex-direction: column;
-    padding-left: 24px; 
+    padding-left: 38px; 
 
 }
 
@@ -707,10 +707,12 @@ align-items: baseline;
 
 .modal-icons{
     fill: #2e2f42;
-    /* position: fixed; */
-    background-color: #434455;
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 
 .modal-imput-box{
-    /* position: relative; */
+    position: relative;
 }
