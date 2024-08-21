@@ -10,6 +10,11 @@ font-weight: 500;
     margin-right: auto;
 }
 
+label{
+    margin: 0;
+    padding: 0;
+}
+
 img{
     display: block;
     padding-right: 0px;
@@ -604,13 +609,15 @@ align-items: baseline;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     padding: 8px 0 8px 16px;
     background-color: #2e2f42;
-}
-
-.footer-mail-input::placeholder{
     font-weight: 400;
     font-size: 12px;
     line-height: 200%;
     letter-spacing: 0.04em;
+    outline: none;
+    color: #ffffff;
+}
+
+.footer-mail-input::placeholder{
     color: #fff;
 }
 
@@ -622,6 +629,7 @@ align-items: baseline;
 
 .footer-form{
     display: flex;
+    gap: 24px;
 }
 
 /* modal-overlay */
