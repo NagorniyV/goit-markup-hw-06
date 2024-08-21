@@ -456,12 +456,14 @@
         <div class="subscribe-box">
           <p class="form-text-footer">Subscribe</p>
           <form class="footer-form">
-            <input
-              class="footer-mail-input"
-              type="email"
-              name="email"
-              placeholder="e-mail"
-            />
+            <label class="subscribe-label" for="">
+              <input
+                class="footer-mail-input"
+                type="email"
+                name="email"
+                placeholder="e-mail"
+              />
+            </label>
             <button class="subscribe-btn" type="submit">
               Subscribe
               <svg class="sub-iconss" width="24" height="24">
@@ -472,7 +474,7 @@
         </div>
       </div>
     </footer>
-    <div class="backdrop is-ope">
+    <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="modal-close-btn">
           <svg class="modal-close-icon" width="8" height="8">
@@ -515,8 +517,7 @@
               name="modal-form-textarea"
               rows="5"
               placeholder="Text input"
-            >
-            </textarea>
+            ></textarea>
           </label>
           <div class="form-field">
             <input
@@ -524,11 +525,11 @@
               class="checkbox visually-hidden"
               id="user-checkbox"
             />
-            <button class="ok-button">
+            <div class="check-box">
               <svg class="icon-ok" width="10" height="8">
                 <use href="./images/icons.svg#icon-ok-svg"></use>
               </svg>
-            </button>
+            </div>
             <label class="checkbox-label"
               >I accept the terms and conditions of the
               <span class="modal-span">Privacy Policy</span>
