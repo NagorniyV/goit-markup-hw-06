@@ -673,6 +673,10 @@ align-items: baseline;
     margin-bottom: 16px;
 }
 
+.modal-form-contacts{
+    margin-bottom: 8px;
+}
+
 .modal-form{
     border: 1px solid rgba(46, 47, 66, 0.4);
     border-radius: 4px;
@@ -775,10 +779,6 @@ align-items: baseline;
 .modal-imput-box{
     position: relative;
 }
-
-/* .modal-form-contacts{
-margin-bottom: 8px;
-} */
 
 .modal-close-icon{
     fill: #2e2f42;
