@@ -850,7 +850,7 @@ align-items: baseline;
     fill: #fff;
 }
 
-.check-box{
+.modal-span{
     border-radius: 2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
     display: inline-flex;
@@ -870,6 +870,8 @@ align-items: baseline;
 
 }
 
-.check-box > .icon-ok:focus{
+.checkbox:checked+.checkbox-label>.modal-span{
     background-color: #404bbf;
+    border: none;
+    fill: #F4F4FD;
 }
