@@ -19,6 +19,7 @@ img{
     display: block;
     padding-right: 0px;
     margin-right: 0px;
+    max-width: 100%;
 }
 
 h1,
@@ -49,6 +50,30 @@ a {
     font-size: 12px;
     line-height: 133%;
     letter-spacing: 0.04em;
+}
+
+/* adaprivniy container */
+
+.container {
+    max-width: 320px;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1158px) {
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
 }
 
 /* header */
@@ -234,19 +259,19 @@ a {
 /* section2 strategy */
 
 .strategy{
-    padding-top: 120px;
-    padding-bottom: 120px;
+    margin: 120px 0;
 }
 
-.strategy .container{
+/* .strategy .container{
     width: 1128px;
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
-  }
+    min-width: 320px;
+  } */
 
 .strategy .icon-box {
-   display: flex;
+   display: none;
   flex-direction: column;
       align-items: center;
   height: 112px;
@@ -258,19 +283,19 @@ a {
     }
 
 .strategy .strategy-item{
-    display: flex;
-    flex-wrap: wrap;
+    /* display: flex; */
     /* width: calc((100% - 3 * 24px) / 4); */
 }
 
 .strategy-item .content-title {
     font-weight: 500;
-    font-size: 20px;
+    font-size: 36px;
     line-height: 120%;
     letter-spacing: 0.02em;
     color: #2e2f42;
     font-family: "Roboto", sans-serif;
     margin-bottom: 8px;
+    text-align: center;
 }
 
 .strategy-item .content-text {
@@ -280,11 +305,13 @@ a {
     line-height: 150%;
     letter-spacing: 0.02em;
     color: #434455;
+    min-width: 320px;
 }
 
 .strategy-list {
     display: flex;
-    gap: 24px;
+    flex-direction: column;
+    gap: 72px;
 }
 
 /* section3 Our Team */
