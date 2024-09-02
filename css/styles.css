@@ -156,7 +156,7 @@ a {
     color: #2e2f42;
 }
 
-.navigation .point:nth-child(1) .link::after{
+/* .navigation .point:nth-child(1) .link::after{
     content: '';
     position: absolute;
     left: 0;
@@ -166,7 +166,7 @@ a {
     height: 4px;
     border-radius: 2px;
     background-color: #404bbf;
-}
+} */
 
 .navigation .point:nth-child(1) .link {
     position: relative;
@@ -205,7 +205,7 @@ a {
     color: #4d5ae5;
     font-family:"Raleway", sans-serif;
     text-transform: uppercase;
-    /* margin-right: 76px; */
+    margin-right: 149px;
 }
 
 .span-logo{
@@ -238,11 +238,6 @@ a {
 .btn-os:focus {
     background-color: #404bbf;
 }
-
-/* .main-page .container {
-    margin: 0px auto;
-    padding: 0 16px;
-} */
 
 .main-page {
     background-color: #2e2f42;
@@ -726,7 +721,8 @@ flex-direction: column;
     box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
     background: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    padding: 72px 24px 24px 24px;
+    padding: 72px 16px 24px 16px;
+    max-width: 288px;
 }
 
 .madal-text{
@@ -790,6 +786,7 @@ flex-direction: column;
     background-color: transparent;
     outline: transparent;
     resize: none;
+    max-width: 256px;
 }
 
 .modal-form-textarea::placeholder{
@@ -939,4 +936,51 @@ flex-direction: column;
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+.window-menu .container{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.window-menu .social-link{
+    display: flex;
+    gap: 40px;
+    margin: 48px auto 40px;
+}
+
+.window-menu .navigation{
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-bottom: 168px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+}
+
+.window-menu .navigation .link{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+}
+
+.window-menu .contacts {
+    display: flex;
+    flex-direction: column;
+}
+
+.window-menu .list-h {
+    display: flex;
+    flex-direction: column;
+}
+
+.window-menu .list-h .header-add{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 120%;
+    letter-spacing: 0.02em;
 }
