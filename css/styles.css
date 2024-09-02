@@ -1008,7 +1008,7 @@ flex-direction: column;
 }
 
 .modal{
-    display: none;
+    /* display: none; */
     position: absolute;
     top: 50%;
     left: 50%;
@@ -1020,7 +1020,7 @@ flex-direction: column;
     background: #fcfcfc;
     transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 72px 16px 24px 16px;
-    max-width: 288px;
+    max-width: 288px; 
 }
 
 .madal-text{
@@ -1237,6 +1237,28 @@ flex-direction: column;
     background-color: #404bbf;
     border: none;
     fill: #F4F4FD;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1157px){
+    .modal{
+        max-width: 408px;
+        padding: 72px 24px 24px 24px;
+    }
+
+    .modal-form-textarea{
+        max-width: 360px;
+    }                           
+}
+
+@media screen and (min-width: 1158px){
+    .modal{
+        max-width: 408px;
+        padding: 72px 24px 24px 24px;
+    }
+
+    .modal-form-textarea{
+        max-width: 360px;
+    }   
 }
 
 /* here window-menu */
