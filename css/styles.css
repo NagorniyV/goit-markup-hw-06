@@ -22,6 +22,13 @@ img{
     max-width: 100%;
 }
 
+.button {
+    display: block;
+    cursor: pointer;
+    padding: 0;
+}
+    
+
 h1,
 h2,
 h3,
@@ -50,6 +57,19 @@ a {
     font-size: 12px;
     line-height: 133%;
     letter-spacing: 0.04em;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 /* adaprivniy container */
@@ -82,23 +102,32 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto;
     padding: 0 15px 0 15px;
-    width: 1158px;
+    max-width: 320px; */
 }
 
 .header{
     display: flex;
     margin: 0px auto;
     border-bottom: 1px solid #e7e9fc;
-    height: 72px;
+    height: 56px;
     box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
+.menu-header-btn{
+    background-color: transparent;
+    border: none;
+}
+
+.icon-menu{
+    fill: #2f2f37;
+}
+
 .navigation{
-    display: flex;
+    display: none;
     gap: 40px;
 }
 
@@ -111,26 +140,6 @@ a {
     display: flex;
     align-items: center;
 }
-
-.main-page .container{
-    margin: 0px auto;
-    padding: 0 15px;
-}
-
-.main-page {
-    background-color: #2e2f42;
-    margin: auto;
-    padding-top: 188px;
-    padding-bottom: 188px;
-    background-image: linear-gradient(to bottom,
-            rgba(46, 47, 66, 0.7),
-            rgba(46, 47, 66, 0.7)),
-            url(../images/hero-bg.jpg);
-    background-repeat: no-repeat;
-        background-position: center center;
-        background-size: cover;
-    max-width: 1440px;
-    }
 
 .navigation .link {
     color: #2e2f42;
@@ -179,6 +188,7 @@ a {
 }
 
 .contacts{
+    display: none;
     font-style: normal;
 }
 
@@ -195,7 +205,7 @@ a {
     color: #4d5ae5;
     font-family:"Raleway", sans-serif;
     text-transform: uppercase;
-    margin-right: 76px;
+    /* margin-right: 76px; */
 }
 
 .span-logo{
@@ -229,31 +239,37 @@ a {
     background-color: #404bbf;
 }
 
-.main-title {
-    font-weight: 700;
-    font-size: 56px;
-    line-height: 107%;
-   letter-spacing: 0.3px;
-    text-align: center;
-    color:white;
-    margin-bottom: 48px;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 496px;
-    text-align: center;
+/* .main-page .container {
+    margin: 0px auto;
+    padding: 0 16px;
+} */
+
+.main-page {
+    background-color: #2e2f42;
+    margin: auto;
+    padding: 72px 0;
+    background-image: linear-gradient(to bottom,
+            rgba(46, 47, 66, 0.7),
+            rgba(46, 47, 66, 0.7)),
+        url(../images/bg-mobile.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 320px;
 }
 
-.visually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+.main-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 111%;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:white;
+    margin-bottom: 72px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 200px;
+    text-align: center;
 }
 
 /* section2 strategy */
@@ -316,10 +332,10 @@ a {
 /* section3 Our Team */
 
 .team .container{
-min-width: 320px;
+/* min-width: 320px; */
 gap: 24px;
-margin-left: auto;
-margin-right: auto;
+/* margin-left: auto;
+margin-right: auto; */
 /* padding: 0 15px; */
 }
 
@@ -342,8 +358,8 @@ padding-left: 0px;
 
 .team {
     background-color: #f4f4fd;
-    padding-top: 120px;
-    padding-bottom: 120px;
+    padding-top: 96px;
+    padding-bottom: 96px;
 }
 
 .team-box {
@@ -445,7 +461,7 @@ justify-content: center;
 }
 
 .portfolio{
-   padding: 120px 0 120px 0;
+   padding: 96px 0 96px 0;
    max-width: 1158px;
    margin-left: auto;
    margin-right: auto;
@@ -699,6 +715,7 @@ flex-direction: column;
 }
 
 .modal{
+    display: none;
     position: absolute;
     top: 50%;
     left: 50%;
